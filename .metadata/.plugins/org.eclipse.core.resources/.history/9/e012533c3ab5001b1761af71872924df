@@ -1,0 +1,14 @@
+package homeWorkOne;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		Product product1 = new Product("C# + Engular Kampi", 1, "Engin Demirog");
+		Product product2 = new Product("Java + React", 42, "Engin Demirog");
+
+		Product[] products = { product1, product2 };
+
+	}
+
+}
